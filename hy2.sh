@@ -32,6 +32,9 @@ masquerade:
     rewriteHost: true
 EOF
 
+#设置开机自启
+systemctl enable hysteria-server.service
+
 #启动Hysteria2
 systemctl start hysteria-server.service
 #重启Hysteria2
@@ -40,7 +43,6 @@ systemctl start hysteria-server.service
 systemctl status hysteria-server.service
 #停止Hysteria2
 #systemctl stop hysteria-server.service
-#设置开机自启
-systemctl enable hysteria-server.service
+
 #查看日志
 #journalctl -u hysteria-server.service
