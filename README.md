@@ -1,2 +1,1 @@
-# myownsh
-myownsh
+./hy2.sh
