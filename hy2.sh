@@ -1,3 +1,4 @@
+#!/bin/bash
 #一键安装Hysteria2
 bash <(curl -fsSL https://get.hy2.sh/)
 #生成自签证书
